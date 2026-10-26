@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:macgesture}",
+            "name": "Debug MacGesture",
+            "target": "MacGesture",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MacGesture"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:macgesture}",
+            "name": "Release MacGesture",
+            "target": "MacGesture",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MacGesture"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:macgesture}",
+            "name": "Debug macgesture-probe",
+            "target": "macgesture-probe",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug macgesture-probe"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:macgesture}",
+            "name": "Release macgesture-probe",
+            "target": "macgesture-probe",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release macgesture-probe"
+        }
+    ]
+}
